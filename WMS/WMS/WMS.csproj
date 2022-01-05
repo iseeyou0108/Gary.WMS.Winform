@@ -1,0 +1,1265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6D2260D0-6192-4654-B563-8F93C24B9888}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WMS</RootNamespace>
+    <AssemblyName>WMS</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.v10.2.Core, Version=10.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.CodeParser.v10.2, Version=10.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v10.2, Version=10.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v10.2.Core, Version=10.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v10.2.Core, Version=10.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v10.2, Version=10.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v10.2, Version=10.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v10.2, Version=10.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v10.2.Extensions, Version=10.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v10.2, Version=10.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v10.2, Version=10.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v10.2, Version=10.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v10.2, Version=10.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPivotGrid.v10.2, Version=10.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v10.2, Version=10.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v10.2, Version=10.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v10.2.Extensions, Version=10.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraRichEdit.v10.2, Version=10.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraTreeList.v10.2, Version=10.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v10.2, Version=10.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ENCRYPTION.cs" />
+    <Compile Include="FORM_CHECK\Fm_C003.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_CHECK\Fm_C003.Designer.cs">
+      <DependentUpon>Fm_C003.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_CHECK\Fm_C002_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_CHECK\Fm_C002_1.Designer.cs">
+      <DependentUpon>Fm_C002_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_CHECK\Fm_C001.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_CHECK\Fm_C001.Designer.cs">
+      <DependentUpon>Fm_C001.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_BASIC\Fm_B003.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_BASIC\Fm_B003.Designer.cs">
+      <DependentUpon>Fm_B003.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_CHECK\Fm_C002.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_CHECK\Fm_C002.Designer.cs">
+      <DependentUpon>Fm_C002.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_QUERY\Fm_Q010_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_QUERY\Fm_Q010_1.Designer.cs">
+      <DependentUpon>Fm_Q010_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_IN\Fm_I003.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_IN\Fm_I003.Designer.cs">
+      <DependentUpon>Fm_I003.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_ASRS\Fm_A002_3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_ASRS\Fm_A002_3.Designer.cs">
+      <DependentUpon>Fm_A002_3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_ASRS\Fm_A002_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_ASRS\Fm_A002_1.Designer.cs">
+      <DependentUpon>Fm_A002_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_ASRS\Fm_A002.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_ASRS\Fm_A002.Designer.cs">
+      <DependentUpon>Fm_A002.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_ASRS\Fm_A002_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_ASRS\Fm_A002_2.Designer.cs">
+      <DependentUpon>Fm_A002_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_IN\Fm_I003_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_IN\Fm_I003_1.Designer.cs">
+      <DependentUpon>Fm_I003_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_QUERY\Fm_Q002.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_QUERY\Fm_Q002.Designer.cs">
+      <DependentUpon>Fm_Q002.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_QUERY\Fm_Q005.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_QUERY\Fm_Q005.Designer.cs">
+      <DependentUpon>Fm_Q005.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_QUERY\Fm_Q007.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_QUERY\Fm_Q007.Designer.cs">
+      <DependentUpon>Fm_Q007.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_IN\Fm_I002_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_IN\Fm_I002_1.Designer.cs">
+      <DependentUpon>Fm_I002_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_IN\Fm_I002.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_IN\Fm_I002.Designer.cs">
+      <DependentUpon>Fm_I002.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_IN\Fm_I001.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_IN\Fm_I001.Designer.cs">
+      <DependentUpon>Fm_I001.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_IN\Fm_I001_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_IN\Fm_I001_1.Designer.cs">
+      <DependentUpon>Fm_I001_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_OUT\Fm_O003.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_OUT\Fm_O003.Designer.cs">
+      <DependentUpon>Fm_O003.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_OUT\Fm_O002_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_OUT\Fm_O002_1.Designer.cs">
+      <DependentUpon>Fm_O002_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_OUT\Fm_O002.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_OUT\Fm_O002.Designer.cs">
+      <DependentUpon>Fm_O002.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_OUT\Fm_O001_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_OUT\Fm_O001_1.Designer.cs">
+      <DependentUpon>Fm_O001_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_OUT\Fm_O001.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_OUT\Fm_O001.Designer.cs">
+      <DependentUpon>Fm_O001.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_OUT\Fm_O005.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_OUT\Fm_O005.Designer.cs">
+      <DependentUpon>Fm_O005.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_OUT\Fm_O004.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_OUT\Fm_O004.Designer.cs">
+      <DependentUpon>Fm_O004.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_QUERY\Fm_Q001.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_QUERY\Fm_Q001.Designer.cs">
+      <DependentUpon>Fm_Q001.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_QUERY\Fm_Q003.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_QUERY\Fm_Q003.Designer.cs">
+      <DependentUpon>Fm_Q003.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_ASRS\Fm_A003.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_ASRS\Fm_A003.Designer.cs">
+      <DependentUpon>Fm_A003.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_ASRS\Fm_A001.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_ASRS\Fm_A001.Designer.cs">
+      <DependentUpon>Fm_A001.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fm_Alert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fm_Alert.Designer.cs">
+      <DependentUpon>Fm_Alert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_IN\Fm_I004.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_IN\Fm_I004.Designer.cs">
+      <DependentUpon>Fm_I004.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_QUERY\Fm_Q004.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_QUERY\Fm_Q004.Designer.cs">
+      <DependentUpon>Fm_Q004.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_QUERY\Fm_Q009.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_QUERY\Fm_Q009.Designer.cs">
+      <DependentUpon>Fm_Q009.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_QUERY\Fm_Q006.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_QUERY\Fm_Q006.Designer.cs">
+      <DependentUpon>Fm_Q006.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_QUERY\Fm_Q008.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_QUERY\Fm_Q008.Designer.cs">
+      <DependentUpon>Fm_Q008.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_QUERY\Fm_Q010.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_QUERY\Fm_Q010.Designer.cs">
+      <DependentUpon>Fm_Q010.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_SYSTEM\Fm_HrsUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_SYSTEM\Fm_HrsUser.Designer.cs">
+      <DependentUpon>Fm_HrsUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_SYSTEM\Fm_HrsUnit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_SYSTEM\Fm_HrsUnit.Designer.cs">
+      <DependentUpon>Fm_HrsUnit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_SYSTEM\Fm_EditRolePriv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_SYSTEM\Fm_EditRolePriv.Designer.cs">
+      <DependentUpon>Fm_EditRolePriv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_SYSTEM\Fm_S001.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_SYSTEM\Fm_S001.Designer.cs">
+      <DependentUpon>Fm_S001.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_BASIC\Fm_B002.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_BASIC\Fm_B002.Designer.cs">
+      <DependentUpon>Fm_B002.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fm_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fm_Login.Designer.cs">
+      <DependentUpon>fm_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fm_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fm_Main.Designer.cs">
+      <DependentUpon>fm_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_BASIC\Fm_B002_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_BASIC\Fm_B002_1.designer.cs">
+      <DependentUpon>Fm_B002_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_BASIC\Fm_B001.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_BASIC\Fm_B001.Designer.cs">
+      <DependentUpon>Fm_B001.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_BASIC\Fm_B001_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_BASIC\Fm_B001_1.designer.cs">
+      <DependentUpon>Fm_B001_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_PUBLIC\Fm_SetGridviewColumns.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_PUBLIC\Fm_SetGridviewColumns.Designer.cs">
+      <DependentUpon>Fm_SetGridviewColumns.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Language\FORM_ASRS\Resource_Fm_A001.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource_Fm_A001.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Language\FORM_ASRS\Resource_Fm_A002.Designer.cs">
+      <DependentUpon>Resource_Fm_A002.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Language\FORM_BASIC\Resource_Fm_B001.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource_Fm_B001.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Language\FORM_BASIC\Resource_Fm_B002.Designer.cs" />
+    <Compile Include="Language\FORM_BASIC\Resource_Fm_B003.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource_Fm_B003.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Language\FORM_BASIC\Resource_Fm_S001.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource_Fm_S001.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Language\FORM_CHECK\Resource_Fm_C001.Designer.cs">
+      <DependentUpon>Resource_Fm_C001.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Language\FORM_CHECK\Resource_Fm_C002.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource_Fm_C002.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Language\FORM_CHECK\Resource_Fm_C003.Designer.cs">
+      <DependentUpon>Resource_Fm_C003.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Language\FORM_IN\Resource_Fm_I001.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource_Fm_I001.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Language\FORM_IN\Resource_Fm_I002.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource_Fm_I002.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Language\FORM_IN\Resource_Fm_I003.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource_Fm_I003.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Language\FORM_OUT\Resource_Fm_O001.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource_Fm_O001.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Language\FORM_OUT\Resource_Fm_O003.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource_Fm_O003.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Language\FORM_OUT\Resource_Fm_O004.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource_Fm_O004.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Language\FORM_OUT\Resource_Fm_O005.Designer.cs">
+      <DependentUpon>Resource_Fm_O005.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Language\FORM_QUERY\Resource_Fm_Q003.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource_Fm_Q003.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Language\FORM_QUERY\Resource_Fm_Q004.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource_Fm_Q004.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Language\FORM_QUERY\Resource_Fm_Q007.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource_Fm_Q007.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Language\FORM_QUERY\Resource_Fm_Q009.Designer.cs">
+      <DependentUpon>Resource_Fm_Q009.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Language\FORM_QUERY\Resource_Fm_Q006.Designer.cs">
+      <DependentUpon>Resource_Fm_Q006.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Language\FORM_QUERY\Resource_Fm_Q005.Designer.cs">
+      <DependentUpon>Resource_Fm_Q005.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Language\FORM_QUERY\Resource_Fm_Q008.Designer.cs">
+      <DependentUpon>Resource_Fm_Q008.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Language\FORM_QUERY\Resource_Fm_Q010.Designer.cs">
+      <DependentUpon>Resource_Fm_Q010.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Language\Resource_fm_Login.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource_fm_Login.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Language\Resource_Public.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource_Public.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Language\Resource_WCS_TRK.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource_WCS_TRK.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Language\Resource_WMS_STK.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource_WMS_STK.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Model\CusBarcodeInfo.cs" />
+    <Compile Include="Model\CusLineSetting.cs" />
+    <Compile Include="Model\HrsMenu.cs" />
+    <Compile Include="Model\RolePriv.cs" />
+    <Compile Include="Model\WcsCrn.cs" />
+    <Compile Include="Model\WcsCrnErrorLog.cs" />
+    <Compile Include="Model\WcsCrnPdStation.cs" />
+    <Compile Include="Model\WcsTrk.cs" />
+    <Compile Include="Model\WcsTrkLog.cs" />
+    <Compile Include="Model\WmsBinSta.cs" />
+    <Compile Include="Model\WmsCycd.cs" />
+    <Compile Include="Model\WmsOutLine.cs" />
+    <Compile Include="Model\WmsOutList.cs" />
+    <Compile Include="Model\WmsStk.cs" />
+    <Compile Include="Model\WmsStkOrder.cs" />
+    <Compile Include="Model\WmsUser.cs" />
+    <Compile Include="Model\WmsInLine.cs" />
+    <Compile Include="Model\WmsInList.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FORM_CHECK\Fm_C003.resx">
+      <DependentUpon>Fm_C003.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_CHECK\Fm_C002_1.resx">
+      <DependentUpon>Fm_C002_1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_BASIC\Fm_B003.resx">
+      <DependentUpon>Fm_B003.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_CHECK\Fm_C001.resx">
+      <DependentUpon>Fm_C001.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_CHECK\Fm_C002.resx">
+      <DependentUpon>Fm_C002.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_IN\Fm_I003.resx">
+      <DependentUpon>Fm_I003.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_ASRS\Fm_A002.zh-CN.resx">
+      <DependentUpon>Fm_A002.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_ASRS\Fm_A002_3.resx">
+      <DependentUpon>Fm_A002_3.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_ASRS\Fm_A002_1.resx">
+      <DependentUpon>Fm_A002_1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_ASRS\Fm_A002.resx">
+      <DependentUpon>Fm_A002.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_ASRS\Fm_A002_1.zh-CN.resx">
+      <DependentUpon>Fm_A002_1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_ASRS\Fm_A002_2.resx">
+      <DependentUpon>Fm_A002_2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_ASRS\Fm_A002_2.zh-CN.resx">
+      <DependentUpon>Fm_A002_2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_ASRS\Fm_A002_3.zh-CN.resx">
+      <DependentUpon>Fm_A002_3.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_ASRS\Fm_A003.zh-CN.resx">
+      <DependentUpon>Fm_A003.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_IN\Fm_I003_1.resx">
+      <DependentUpon>Fm_I003_1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_OUT\Fm_O001.zh-CN.resx">
+      <DependentUpon>Fm_O001.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_PUBLIC\Fm_SetGridviewColumns.zh-CN.resx">
+      <DependentUpon>Fm_SetGridviewColumns.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_QUERY\Fm_Q001.zh-CN.resx">
+      <DependentUpon>Fm_Q001.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_QUERY\Fm_Q002.resx">
+      <DependentUpon>Fm_Q002.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_QUERY\Fm_Q002.zh-CN.resx">
+      <DependentUpon>Fm_Q002.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_QUERY\Fm_Q005.resx">
+      <DependentUpon>Fm_Q005.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_QUERY\Fm_Q005.zh-CN.resx">
+      <DependentUpon>Fm_Q005.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_QUERY\Fm_Q007.resx">
+      <DependentUpon>Fm_Q007.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_IN\Fm_I002_1.resx">
+      <DependentUpon>Fm_I002_1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_IN\Fm_I002.resx">
+      <DependentUpon>Fm_I002.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_IN\Fm_I001.resx">
+      <DependentUpon>Fm_I001.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_IN\Fm_I001_1.resx">
+      <DependentUpon>Fm_I001_1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_OUT\Fm_O003.resx">
+      <DependentUpon>Fm_O003.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_OUT\Fm_O002_1.resx">
+      <DependentUpon>Fm_O002_1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_OUT\Fm_O002.resx">
+      <DependentUpon>Fm_O002.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_OUT\Fm_O001.resx">
+      <DependentUpon>Fm_O001.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_OUT\Fm_O001_1.resx">
+      <DependentUpon>Fm_O001_1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_OUT\Fm_O005.resx">
+      <DependentUpon>Fm_O005.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_OUT\Fm_O004.resx">
+      <DependentUpon>Fm_O004.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_QUERY\Fm_Q001.resx">
+      <DependentUpon>Fm_Q001.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_ASRS\Fm_A001.zh-CN.resx">
+      <DependentUpon>Fm_A001.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_ASRS\Fm_A003.resx">
+      <DependentUpon>Fm_A003.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_ASRS\Fm_A001.resx">
+      <DependentUpon>Fm_A001.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fm_Alert.resx">
+      <DependentUpon>Fm_Alert.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_IN\Fm_I004.resx">
+      <DependentUpon>Fm_I004.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_IN\Fm_I004.zh-CN.resx">
+      <DependentUpon>Fm_I004.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_QUERY\Fm_Q003.resx">
+      <DependentUpon>Fm_Q003.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_QUERY\Fm_Q003.zh-CN.resx">
+      <DependentUpon>Fm_Q003.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_QUERY\Fm_Q004.resx">
+      <DependentUpon>Fm_Q004.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_QUERY\Fm_Q004.zh-CN.resx">
+      <DependentUpon>Fm_Q004.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_QUERY\Fm_Q007.zh-CN.resx">
+      <DependentUpon>Fm_Q007.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_QUERY\Fm_Q008.zh-CN.resx">
+      <DependentUpon>Fm_Q008.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_QUERY\Fm_Q009.resx">
+      <DependentUpon>Fm_Q009.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_QUERY\Fm_Q009.zh-CN.resx">
+      <DependentUpon>Fm_Q009.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_QUERY\Fm_Q006.resx">
+      <DependentUpon>Fm_Q006.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_QUERY\Fm_Q006.zh-CN.resx">
+      <DependentUpon>Fm_Q006.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_QUERY\Fm_Q008.resx">
+      <DependentUpon>Fm_Q008.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_QUERY\Fm_Q010.resx">
+      <DependentUpon>Fm_Q010.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_QUERY\Fm_Q010.zh-CN.resx">
+      <DependentUpon>Fm_Q010.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_QUERY\Fm_Q010_1.resx">
+      <DependentUpon>Fm_Q010_1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_SYSTEM\Fm_EditRolePriv.zh-CN.resx">
+      <DependentUpon>Fm_EditRolePriv.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_SYSTEM\Fm_HrsUnit.zh-CN.resx">
+      <DependentUpon>Fm_HrsUnit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_SYSTEM\Fm_HrsUser.resx">
+      <DependentUpon>Fm_HrsUser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_SYSTEM\Fm_HrsUnit.resx">
+      <DependentUpon>Fm_HrsUnit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_SYSTEM\Fm_EditRolePriv.resx">
+      <DependentUpon>Fm_EditRolePriv.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_SYSTEM\Fm_HrsUser.zh-CN.resx">
+      <DependentUpon>Fm_HrsUser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_SYSTEM\Fm_S001.resx">
+      <DependentUpon>Fm_S001.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_BASIC\Fm_B001.zh-CN.resx">
+      <DependentUpon>Fm_B001.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_BASIC\Fm_B002.resx">
+      <DependentUpon>Fm_B002.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fm_Login.resx">
+      <DependentUpon>fm_Login.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fm_Login.zh-CN.resx">
+      <DependentUpon>fm_Login.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fm_Main.resx">
+      <DependentUpon>fm_Main.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fm_Main.zh-CN.resx">
+      <DependentUpon>fm_Main.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_BASIC\Fm_B002.zh-CN.resx">
+      <DependentUpon>Fm_B002.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_BASIC\Fm_B002_1.resx">
+      <DependentUpon>Fm_B002_1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_BASIC\Fm_B002_1.zh-CN.resx">
+      <DependentUpon>Fm_B002_1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_BASIC\Fm_B001.resx">
+      <DependentUpon>Fm_B001.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_BASIC\Fm_B001_1.resx">
+      <DependentUpon>Fm_B001_1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_BASIC\Fm_B001_1.zh-CN.resx">
+      <DependentUpon>Fm_B001_1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_PUBLIC\Fm_SetGridviewColumns.resx">
+      <DependentUpon>Fm_SetGridviewColumns.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_SYSTEM\Fm_S001.zh-CN.resx">
+      <DependentUpon>Fm_S001.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\FORM_ASRS\Resource_Fm_A001.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource_Fm_A001.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\FORM_ASRS\Resource_Fm_A002.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource_Fm_A002.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\FORM_BASIC\Resource_Fm_B001.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource_Fm_B001.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\FORM_BASIC\Resource_Fm_B002.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\FORM_BASIC\Resource_Fm_B002.zh-CN.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\FORM_BASIC\Resource_Fm_B003.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource_Fm_B003.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\FORM_BASIC\Resource_Fm_S001.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource_Fm_S001.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\FORM_CHECK\Resource_Fm_C001.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource_Fm_C001.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\FORM_CHECK\Resource_Fm_C002.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource_Fm_C002.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\FORM_CHECK\Resource_Fm_C003.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource_Fm_C003.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\FORM_IN\Resource_Fm_I001.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource_Fm_I001.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\FORM_IN\Resource_Fm_I002.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource_Fm_I002.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\FORM_IN\Resource_Fm_I003.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource_Fm_I003.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\FORM_OUT\Resource_Fm_O001.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource_Fm_O001.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\FORM_OUT\Resource_Fm_O003.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource_Fm_O003.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\FORM_OUT\Resource_Fm_O004.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource_Fm_O004.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\FORM_OUT\Resource_Fm_O005.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource_Fm_O005.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\FORM_QUERY\Resource_Fm_Q003.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource_Fm_Q003.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\FORM_QUERY\Resource_Fm_Q003.zh-CN.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\FORM_QUERY\Resource_Fm_Q004.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource_Fm_Q004.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\FORM_QUERY\Resource_Fm_Q004.zh-CN.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\FORM_QUERY\Resource_Fm_Q007.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource_Fm_Q007.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\FORM_QUERY\Resource_Fm_Q007.zh-CN.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\FORM_QUERY\Resource_Fm_Q009.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource_Fm_Q009.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\FORM_QUERY\Resource_Fm_Q009.zh-CN.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\FORM_QUERY\Resource_Fm_Q006.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource_Fm_Q006.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\FORM_QUERY\Resource_Fm_Q006.zh-CN.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\FORM_QUERY\Resource_Fm_Q005.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource_Fm_Q005.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\FORM_QUERY\Resource_Fm_Q008.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource_Fm_Q008.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\FORM_QUERY\Resource_Fm_Q010.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource_Fm_Q010.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\FORM_QUERY\Resource_Fm_Q010.zh-CN.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\Resource_fm_Login.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource_fm_Login.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\Resource_Public.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource_Public.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\Resource_WCS_TRK.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource_WCS_TRK.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\Resource_WMS_STK.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource_WMS_STK.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\Resource_WCS_DEVICE.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource_WCS_DEVICE.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORT\XtraReport1.resx">
+      <DependentUpon>XtraReport1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\ucDevice.resx">
+      <DependentUpon>ucDevice.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\ucDevice.zh-CN.resx">
+      <DependentUpon>ucDevice.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Language\Resource_WCS_DEVICE.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource_WCS_DEVICE.resx</DependentUpon>
+    </Compile>
+    <Compile Include="REPORT\XtraReport1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REPORT\XtraReport1.Designer.cs">
+      <DependentUpon>XtraReport1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\CusLineSettingService.cs" />
+    <Compile Include="Service\PalletInService.cs" />
+    <Compile Include="Service\WcsCrnService.cs" />
+    <Compile Include="Service\WcsTrkLogService.cs" />
+    <Compile Include="Service\WmsBinstaService.cs" />
+    <Compile Include="Service\WmsCycdService.cs" />
+    <Compile Include="Service\WmsListService.cs" />
+    <Compile Include="UserControl\ucDevice.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\ucDevice.Designer.cs">
+      <DependentUpon>ucDevice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vPublic.cs" />
+    <Compile Include="WMSExtension.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Checked20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UnChecked20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add_20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit_20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete_20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Excel_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Printer_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Remove16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close_32_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\box_20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\List20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\purchase_20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Robot20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Settings20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shipping20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_16_White.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_16_White.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export_16_White.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer_16_White.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok_16_White.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close_32_W.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Information_32_W.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Information_64_W.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Error_64_W.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OK_64_W.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Warnning_64_W.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArrowLeft_32_W.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArrowRight_32_W.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TrkEdit_16_W.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close_16_W.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArrowTop_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArrorLeft_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArrorLeftRight_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArrowDown_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArrowRight_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArrowUpDown_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minus_16_W.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Important_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Complete_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User_24_W.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User_24_W1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\palet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\palet_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\box_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Box_32_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Empty_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Forbidden_32_r.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Forbidden_32_b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Unknown_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\In_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Out_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Refresh_16_W.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Unlock_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reset_16_W.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Check20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

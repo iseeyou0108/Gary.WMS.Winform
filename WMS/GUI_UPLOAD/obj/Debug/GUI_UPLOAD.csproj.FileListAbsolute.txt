@@ -1,0 +1,8 @@
+C:\邑遠網路科技\公司專案\1.自動倉儲\32.山東信發PVC自動倉儲\SRC\WMS\Gary.WMS.Winform\WMS\GUI_UPLOAD\bin\Debug\GUI_UPLOAD.exe
+C:\邑遠網路科技\公司專案\1.自動倉儲\32.山東信發PVC自動倉儲\SRC\WMS\Gary.WMS.Winform\WMS\GUI_UPLOAD\bin\Debug\GUI_UPLOAD.pdb
+C:\邑遠網路科技\公司專案\1.自動倉儲\32.山東信發PVC自動倉儲\SRC\WMS\Gary.WMS.Winform\WMS\GUI_UPLOAD\obj\Debug\ResolveAssemblyReference.cache
+C:\邑遠網路科技\公司專案\1.自動倉儲\32.山東信發PVC自動倉儲\SRC\WMS\Gary.WMS.Winform\WMS\GUI_UPLOAD\obj\Debug\GUI_UPLOAD.fm_Main.resources
+C:\邑遠網路科技\公司專案\1.自動倉儲\32.山東信發PVC自動倉儲\SRC\WMS\Gary.WMS.Winform\WMS\GUI_UPLOAD\obj\Debug\GUI_UPLOAD.Properties.Resources.resources
+C:\邑遠網路科技\公司專案\1.自動倉儲\32.山東信發PVC自動倉儲\SRC\WMS\Gary.WMS.Winform\WMS\GUI_UPLOAD\obj\Debug\GUI_UPLOAD.csproj.GenerateResource.Cache
+C:\邑遠網路科技\公司專案\1.自動倉儲\32.山東信發PVC自動倉儲\SRC\WMS\Gary.WMS.Winform\WMS\GUI_UPLOAD\obj\Debug\GUI_UPLOAD.exe
+C:\邑遠網路科技\公司專案\1.自動倉儲\32.山東信發PVC自動倉儲\SRC\WMS\Gary.WMS.Winform\WMS\GUI_UPLOAD\obj\Debug\GUI_UPLOAD.pdb

@@ -1,0 +1,2193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="xtraTabControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="xtraTabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ucDevice1057.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 578</value>
+  </data>
+  <data name="ucDevice1057.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 76</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ucDevice1057.TabIndex" type="System.Int32, mscorlib">
+    <value>99</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1057.Name" xml:space="preserve">
+    <value>ucDevice1057</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1057.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1057.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1057.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ucDevice1053.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 655</value>
+  </data>
+  <data name="ucDevice1053.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 76</value>
+  </data>
+  <data name="ucDevice1053.TabIndex" type="System.Int32, mscorlib">
+    <value>98</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1053.Name" xml:space="preserve">
+    <value>ucDevice1053</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1053.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1053.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1053.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ucDevice1051.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 731</value>
+  </data>
+  <data name="ucDevice1051.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 76</value>
+  </data>
+  <data name="ucDevice1051.TabIndex" type="System.Int32, mscorlib">
+    <value>97</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1051.Name" xml:space="preserve">
+    <value>ucDevice1051</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1051.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1051.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1051.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ucDevice1049.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 807</value>
+  </data>
+  <data name="ucDevice1049.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 76</value>
+  </data>
+  <data name="ucDevice1049.TabIndex" type="System.Int32, mscorlib">
+    <value>96</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1049.Name" xml:space="preserve">
+    <value>ucDevice1049</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1049.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1049.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1049.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ucDevice1045.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 887</value>
+  </data>
+  <data name="ucDevice1045.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 76</value>
+  </data>
+  <data name="ucDevice1045.TabIndex" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1045.Name" xml:space="preserve">
+    <value>ucDevice1045</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1045.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1045.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1045.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ucDevice1043.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 963</value>
+  </data>
+  <data name="ucDevice1043.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 76</value>
+  </data>
+  <data name="ucDevice1043.TabIndex" type="System.Int32, mscorlib">
+    <value>94</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1043.Name" xml:space="preserve">
+    <value>ucDevice1043</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1043.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1043.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1043.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ucDevice1041.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 1039</value>
+  </data>
+  <data name="ucDevice1041.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 76</value>
+  </data>
+  <data name="ucDevice1041.TabIndex" type="System.Int32, mscorlib">
+    <value>93</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1041.Name" xml:space="preserve">
+    <value>ucDevice1041</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1041.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1041.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1041.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ucDevice1039.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 1115</value>
+  </data>
+  <data name="ucDevice1039.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 76</value>
+  </data>
+  <data name="ucDevice1039.TabIndex" type="System.Int32, mscorlib">
+    <value>92</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1039.Name" xml:space="preserve">
+    <value>ucDevice1039</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1039.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1039.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1039.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="ucDevice1037.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 1191</value>
+  </data>
+  <data name="ucDevice1037.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 76</value>
+  </data>
+  <data name="ucDevice1037.TabIndex" type="System.Int32, mscorlib">
+    <value>91</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1037.Name" xml:space="preserve">
+    <value>ucDevice1037</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1037.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1037.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1037.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="ucDevice1035.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 1267</value>
+  </data>
+  <data name="ucDevice1035.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 76</value>
+  </data>
+  <data name="ucDevice1035.TabIndex" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1035.Name" xml:space="preserve">
+    <value>ucDevice1035</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1035.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1035.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1035.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="ucDevice1033.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 1343</value>
+  </data>
+  <data name="ucDevice1033.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 76</value>
+  </data>
+  <data name="ucDevice1033.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1033.Name" xml:space="preserve">
+    <value>ucDevice1033</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1033.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1033.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1033.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="ucDevice1031.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 1419</value>
+  </data>
+  <data name="ucDevice1031.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 76</value>
+  </data>
+  <data name="ucDevice1031.TabIndex" type="System.Int32, mscorlib">
+    <value>88</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1031.Name" xml:space="preserve">
+    <value>ucDevice1031</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1031.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1031.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1031.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="ucDevice1030.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 1495</value>
+  </data>
+  <data name="ucDevice1030.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 76</value>
+  </data>
+  <data name="ucDevice1030.TabIndex" type="System.Int32, mscorlib">
+    <value>87</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1030.Name" xml:space="preserve">
+    <value>ucDevice1030</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1030.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1030.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1030.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="ucDevice1028.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 1571</value>
+  </data>
+  <data name="ucDevice1028.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 76</value>
+  </data>
+  <data name="ucDevice1028.TabIndex" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1028.Name" xml:space="preserve">
+    <value>ucDevice1028</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1028.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1028.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1028.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="ucDevice1026.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 1647</value>
+  </data>
+  <data name="ucDevice1026.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 76</value>
+  </data>
+  <data name="ucDevice1026.TabIndex" type="System.Int32, mscorlib">
+    <value>85</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1026.Name" xml:space="preserve">
+    <value>ucDevice1026</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1026.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1026.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1026.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="ucDevice1024.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 1723</value>
+  </data>
+  <data name="ucDevice1024.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 76</value>
+  </data>
+  <data name="ucDevice1024.TabIndex" type="System.Int32, mscorlib">
+    <value>84</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1024.Name" xml:space="preserve">
+    <value>ucDevice1024</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1024.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1024.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1024.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="ucDevice1022.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 1799</value>
+  </data>
+  <data name="ucDevice1022.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 76</value>
+  </data>
+  <data name="ucDevice1022.TabIndex" type="System.Int32, mscorlib">
+    <value>83</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1022.Name" xml:space="preserve">
+    <value>ucDevice1022</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1022.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1022.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1022.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="ucDevice1020.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 1875</value>
+  </data>
+  <data name="ucDevice1020.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 76</value>
+  </data>
+  <data name="ucDevice1020.TabIndex" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1020.Name" xml:space="preserve">
+    <value>ucDevice1020</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1020.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1020.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1020.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="ucDevice1018.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 1951</value>
+  </data>
+  <data name="ucDevice1018.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 76</value>
+  </data>
+  <data name="ucDevice1018.TabIndex" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1018.Name" xml:space="preserve">
+    <value>ucDevice1018</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1018.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1018.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1018.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="ucDevice1016.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 2027</value>
+  </data>
+  <data name="ucDevice1016.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 76</value>
+  </data>
+  <data name="ucDevice1016.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1016.Name" xml:space="preserve">
+    <value>ucDevice1016</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1016.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1016.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1016.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="ucDevice1014.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 2103</value>
+  </data>
+  <data name="ucDevice1014.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 76</value>
+  </data>
+  <data name="ucDevice1014.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1014.Name" xml:space="preserve">
+    <value>ucDevice1014</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1014.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1014.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1014.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="ucDevice1012.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 2179</value>
+  </data>
+  <data name="ucDevice1012.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 76</value>
+  </data>
+  <data name="ucDevice1012.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1012.Name" xml:space="preserve">
+    <value>ucDevice1012</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1012.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1012.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1012.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="ucDevice1010.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 2255</value>
+  </data>
+  <data name="ucDevice1010.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 76</value>
+  </data>
+  <data name="ucDevice1010.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1010.Name" xml:space="preserve">
+    <value>ucDevice1010</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1010.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1010.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1010.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="ucDevice1009.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 2331</value>
+  </data>
+  <data name="ucDevice1009.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 76</value>
+  </data>
+  <data name="ucDevice1009.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1009.Name" xml:space="preserve">
+    <value>ucDevice1009</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1009.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1009.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1009.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="ucDevice1008.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 2407</value>
+  </data>
+  <data name="ucDevice1008.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 76</value>
+  </data>
+  <data name="ucDevice1008.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1008.Name" xml:space="preserve">
+    <value>ucDevice1008</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1008.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1008.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1008.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="ucDevice1006.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 2483</value>
+  </data>
+  <data name="ucDevice1006.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 76</value>
+  </data>
+  <data name="ucDevice1006.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1006.Name" xml:space="preserve">
+    <value>ucDevice1006</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1006.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1006.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1006.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="ucDevice1003.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 2635</value>
+  </data>
+  <data name="ucDevice1003.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 76</value>
+  </data>
+  <data name="ucDevice1003.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1003.Name" xml:space="preserve">
+    <value>ucDevice1003</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1003.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1003.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1003.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="ucDevice1005.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 2559</value>
+  </data>
+  <data name="ucDevice1005.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 76</value>
+  </data>
+  <data name="ucDevice1005.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1005.Name" xml:space="preserve">
+    <value>ucDevice1005</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1005.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1005.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1005.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="ucDevice1002.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 2711</value>
+  </data>
+  <data name="ucDevice1002.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 76</value>
+  </data>
+  <data name="ucDevice1002.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1002.Name" xml:space="preserve">
+    <value>ucDevice1002</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1002.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1002.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1002.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="button8.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="button8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9pt, style=Bold</value>
+  </data>
+  <data name="button8.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>465, 2559</value>
+  </data>
+  <data name="button8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 76</value>
+  </data>
+  <data name="button8.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="button8.Text" xml:space="preserve">
+    <value>棧板回收</value>
+  </data>
+  <data name="&gt;&gt;button8.Name" xml:space="preserve">
+    <value>button8</value>
+  </data>
+  <data name="&gt;&gt;button8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button8.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;button8.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="btnPlatform2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnPlatform2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9pt, style=Bold</value>
+  </data>
+  <data name="btnPlatform2.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnPlatform2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnPlatform2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>465, 2711</value>
+  </data>
+  <data name="btnPlatform2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 76</value>
+  </data>
+  <data name="btnPlatform2.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="btnPlatform2.Text" xml:space="preserve">
+    <value>2號月台</value>
+  </data>
+  <data name="&gt;&gt;btnPlatform2.Name" xml:space="preserve">
+    <value>btnPlatform2</value>
+  </data>
+  <data name="&gt;&gt;btnPlatform2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnPlatform2.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;btnPlatform2.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="btnPlatform1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnPlatform1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9pt, style=Bold</value>
+  </data>
+  <data name="btnPlatform1.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnPlatform1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnPlatform1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>465, 2407</value>
+  </data>
+  <data name="btnPlatform1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 76</value>
+  </data>
+  <data name="btnPlatform1.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="btnPlatform1.Text" xml:space="preserve">
+    <value>1號月台</value>
+  </data>
+  <data name="&gt;&gt;btnPlatform1.Name" xml:space="preserve">
+    <value>btnPlatform1</value>
+  </data>
+  <data name="&gt;&gt;btnPlatform1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnPlatform1.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;btnPlatform1.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="ucDevice1001.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 2711</value>
+  </data>
+  <data name="ucDevice1001.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 76</value>
+  </data>
+  <data name="ucDevice1001.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1001.Name" xml:space="preserve">
+    <value>ucDevice1001</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1001.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1001.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1001.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="ucDevice1004.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 2559</value>
+  </data>
+  <data name="ucDevice1004.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 76</value>
+  </data>
+  <data name="ucDevice1004.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1004.Name" xml:space="preserve">
+    <value>ucDevice1004</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1004.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1004.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1004.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="ucDevice1007.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 2407</value>
+  </data>
+  <data name="ucDevice1007.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 76</value>
+  </data>
+  <data name="ucDevice1007.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1007.Name" xml:space="preserve">
+    <value>ucDevice1007</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1007.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1007.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1007.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="ucDevice1013.Location" type="System.Drawing.Point, System.Drawing">
+    <value>459, 2179</value>
+  </data>
+  <data name="ucDevice1013.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 76</value>
+  </data>
+  <data name="ucDevice1013.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1013.Name" xml:space="preserve">
+    <value>ucDevice1013</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1013.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1013.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1013.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="ucDevice1011.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 2179</value>
+  </data>
+  <data name="ucDevice1011.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 76</value>
+  </data>
+  <data name="ucDevice1011.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1011.Name" xml:space="preserve">
+    <value>ucDevice1011</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1011.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1011.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1011.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="ucDevice1017.Location" type="System.Drawing.Point, System.Drawing">
+    <value>459, 2027</value>
+  </data>
+  <data name="ucDevice1017.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 76</value>
+  </data>
+  <data name="ucDevice1017.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1017.Name" xml:space="preserve">
+    <value>ucDevice1017</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1017.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1017.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1017.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="ucDevice1015.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 2027</value>
+  </data>
+  <data name="ucDevice1015.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 76</value>
+  </data>
+  <data name="ucDevice1015.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1015.Name" xml:space="preserve">
+    <value>ucDevice1015</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1015.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1015.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1015.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="ucDevice1021.Location" type="System.Drawing.Point, System.Drawing">
+    <value>459, 1875</value>
+  </data>
+  <data name="ucDevice1021.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 76</value>
+  </data>
+  <data name="ucDevice1021.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1021.Name" xml:space="preserve">
+    <value>ucDevice1021</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1021.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1021.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1021.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="ucDevice1019.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 1875</value>
+  </data>
+  <data name="ucDevice1019.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 76</value>
+  </data>
+  <data name="ucDevice1019.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1019.Name" xml:space="preserve">
+    <value>ucDevice1019</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1019.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1019.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1019.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="ucDevice1025.Location" type="System.Drawing.Point, System.Drawing">
+    <value>459, 1723</value>
+  </data>
+  <data name="ucDevice1025.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 76</value>
+  </data>
+  <data name="ucDevice1025.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1025.Name" xml:space="preserve">
+    <value>ucDevice1025</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1025.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1025.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1025.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="ucDevice1023.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 1723</value>
+  </data>
+  <data name="ucDevice1023.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 76</value>
+  </data>
+  <data name="ucDevice1023.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1023.Name" xml:space="preserve">
+    <value>ucDevice1023</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1023.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1023.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1023.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="ucDevice1029.Location" type="System.Drawing.Point, System.Drawing">
+    <value>459, 1571</value>
+  </data>
+  <data name="ucDevice1029.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 76</value>
+  </data>
+  <data name="ucDevice1029.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1029.Name" xml:space="preserve">
+    <value>ucDevice1029</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1029.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1029.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1029.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="ucDevice1027.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 1571</value>
+  </data>
+  <data name="ucDevice1027.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 76</value>
+  </data>
+  <data name="ucDevice1027.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1027.Name" xml:space="preserve">
+    <value>ucDevice1027</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1027.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1027.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1027.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="ucDevice1034.Location" type="System.Drawing.Point, System.Drawing">
+    <value>459, 1343</value>
+  </data>
+  <data name="ucDevice1034.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 76</value>
+  </data>
+  <data name="ucDevice1034.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1034.Name" xml:space="preserve">
+    <value>ucDevice1034</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1034.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1034.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1034.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="ucDevice1032.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 1343</value>
+  </data>
+  <data name="ucDevice1032.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 76</value>
+  </data>
+  <data name="ucDevice1032.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1032.Name" xml:space="preserve">
+    <value>ucDevice1032</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1032.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1032.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1032.ZOrder" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="ucDevice1038.Location" type="System.Drawing.Point, System.Drawing">
+    <value>459, 1191</value>
+  </data>
+  <data name="ucDevice1038.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 76</value>
+  </data>
+  <data name="ucDevice1038.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1038.Name" xml:space="preserve">
+    <value>ucDevice1038</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1038.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1038.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1038.ZOrder" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="ucDevice1036.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 1191</value>
+  </data>
+  <data name="ucDevice1036.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 76</value>
+  </data>
+  <data name="ucDevice1036.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1036.Name" xml:space="preserve">
+    <value>ucDevice1036</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1036.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1036.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1036.ZOrder" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="ucDevice1042.Location" type="System.Drawing.Point, System.Drawing">
+    <value>459, 1039</value>
+  </data>
+  <data name="ucDevice1042.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 76</value>
+  </data>
+  <data name="ucDevice1042.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1042.Name" xml:space="preserve">
+    <value>ucDevice1042</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1042.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1042.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1042.ZOrder" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="ucDevice1040.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 1039</value>
+  </data>
+  <data name="ucDevice1040.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 76</value>
+  </data>
+  <data name="ucDevice1040.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1040.Name" xml:space="preserve">
+    <value>ucDevice1040</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1040.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1040.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1040.ZOrder" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="ucDevice1046.Location" type="System.Drawing.Point, System.Drawing">
+    <value>459, 887</value>
+  </data>
+  <data name="ucDevice1046.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 76</value>
+  </data>
+  <data name="ucDevice1046.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1046.Name" xml:space="preserve">
+    <value>ucDevice1046</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1046.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1046.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1046.ZOrder" xml:space="preserve">
+    <value>51</value>
+  </data>
+  <data name="ucDevice1044.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 887</value>
+  </data>
+  <data name="ucDevice1044.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 76</value>
+  </data>
+  <data name="ucDevice1044.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1044.Name" xml:space="preserve">
+    <value>ucDevice1044</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1044.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1044.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1044.ZOrder" xml:space="preserve">
+    <value>52</value>
+  </data>
+  <data name="ucDevice1050.Location" type="System.Drawing.Point, System.Drawing">
+    <value>459, 807</value>
+  </data>
+  <data name="ucDevice1050.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 76</value>
+  </data>
+  <data name="ucDevice1050.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1050.Name" xml:space="preserve">
+    <value>ucDevice1050</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1050.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1050.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1050.ZOrder" xml:space="preserve">
+    <value>53</value>
+  </data>
+  <data name="ucDevice1048.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 807</value>
+  </data>
+  <data name="ucDevice1048.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 76</value>
+  </data>
+  <data name="ucDevice1048.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1048.Name" xml:space="preserve">
+    <value>ucDevice1048</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1048.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1048.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1048.ZOrder" xml:space="preserve">
+    <value>54</value>
+  </data>
+  <data name="ucDevice1054.Location" type="System.Drawing.Point, System.Drawing">
+    <value>459, 655</value>
+  </data>
+  <data name="ucDevice1054.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 76</value>
+  </data>
+  <data name="ucDevice1054.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1054.Name" xml:space="preserve">
+    <value>ucDevice1054</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1054.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1054.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1054.ZOrder" xml:space="preserve">
+    <value>55</value>
+  </data>
+  <data name="ucDevice1052.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 655</value>
+  </data>
+  <data name="ucDevice1052.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 76</value>
+  </data>
+  <data name="ucDevice1052.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1052.Name" xml:space="preserve">
+    <value>ucDevice1052</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1052.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1052.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1052.ZOrder" xml:space="preserve">
+    <value>56</value>
+  </data>
+  <data name="ucDevice1058.Location" type="System.Drawing.Point, System.Drawing">
+    <value>459, 578</value>
+  </data>
+  <data name="ucDevice1058.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 76</value>
+  </data>
+  <data name="ucDevice1058.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1058.Name" xml:space="preserve">
+    <value>ucDevice1058</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1058.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1058.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1058.ZOrder" xml:space="preserve">
+    <value>57</value>
+  </data>
+  <data name="ucDevice1056.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 578</value>
+  </data>
+  <data name="ucDevice1056.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 76</value>
+  </data>
+  <data name="ucDevice1056.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1056.Name" xml:space="preserve">
+    <value>ucDevice1056</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1056.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1056.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1056.ZOrder" xml:space="preserve">
+    <value>58</value>
+  </data>
+  <data name="ucDevice1060.Location" type="System.Drawing.Point, System.Drawing">
+    <value>459, 435</value>
+  </data>
+  <data name="ucDevice1060.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 76</value>
+  </data>
+  <data name="ucDevice1060.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1060.Name" xml:space="preserve">
+    <value>ucDevice1060</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1060.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1060.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1060.ZOrder" xml:space="preserve">
+    <value>59</value>
+  </data>
+  <data name="ucDevice1059.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 435</value>
+  </data>
+  <data name="ucDevice1059.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 76</value>
+  </data>
+  <data name="ucDevice1059.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1059.Name" xml:space="preserve">
+    <value>ucDevice1059</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1059.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1059.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1059.ZOrder" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="ucDevice1067.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 358</value>
+  </data>
+  <data name="ucDevice1067.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 76</value>
+  </data>
+  <data name="ucDevice1067.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1067.Name" xml:space="preserve">
+    <value>ucDevice1067</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1067.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1067.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1067.ZOrder" xml:space="preserve">
+    <value>61</value>
+  </data>
+  <data name="ucDevice1063.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 511</value>
+  </data>
+  <data name="ucDevice1063.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 76</value>
+  </data>
+  <data name="ucDevice1063.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1063.Name" xml:space="preserve">
+    <value>ucDevice1063</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1063.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1063.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1063.ZOrder" xml:space="preserve">
+    <value>62</value>
+  </data>
+  <data name="ucDevice1064.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 435</value>
+  </data>
+  <data name="ucDevice1064.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 76</value>
+  </data>
+  <data name="ucDevice1064.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1064.Name" xml:space="preserve">
+    <value>ucDevice1064</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1064.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1064.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1064.ZOrder" xml:space="preserve">
+    <value>63</value>
+  </data>
+  <data name="ucDevice1062.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 511</value>
+  </data>
+  <data name="ucDevice1062.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 76</value>
+  </data>
+  <data name="ucDevice1062.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1062.Name" xml:space="preserve">
+    <value>ucDevice1062</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1062.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1062.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1062.ZOrder" xml:space="preserve">
+    <value>64</value>
+  </data>
+  <data name="ucDevice1061.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 435</value>
+  </data>
+  <data name="ucDevice1061.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 76</value>
+  </data>
+  <data name="ucDevice1061.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1061.Name" xml:space="preserve">
+    <value>ucDevice1061</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1061.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1061.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1061.ZOrder" xml:space="preserve">
+    <value>65</value>
+  </data>
+  <data name="button5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="button5.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="button5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9pt, style=Bold</value>
+  </data>
+  <data name="button5.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 342</value>
+  </data>
+  <data name="button5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>947, 10</value>
+  </data>
+  <data name="button5.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;button5.Name" xml:space="preserve">
+    <value>button5</value>
+  </data>
+  <data name="&gt;&gt;button5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button5.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;button5.ZOrder" xml:space="preserve">
+    <value>66</value>
+  </data>
+  <data name="ucDevice1103.Location" type="System.Drawing.Point, System.Drawing">
+    <value>525, 257</value>
+  </data>
+  <data name="ucDevice1103.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 76</value>
+  </data>
+  <data name="ucDevice1103.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1103.Name" xml:space="preserve">
+    <value>ucDevice1103</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1103.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1103.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1103.ZOrder" xml:space="preserve">
+    <value>67</value>
+  </data>
+  <data name="ucDevice1104.Location" type="System.Drawing.Point, System.Drawing">
+    <value>525, 180</value>
+  </data>
+  <data name="ucDevice1104.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 76</value>
+  </data>
+  <data name="ucDevice1104.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1104.Name" xml:space="preserve">
+    <value>ucDevice1104</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1104.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1104.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1104.ZOrder" xml:space="preserve">
+    <value>68</value>
+  </data>
+  <data name="ucDevice1101.Location" type="System.Drawing.Point, System.Drawing">
+    <value>356, 257</value>
+  </data>
+  <data name="ucDevice1101.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 76</value>
+  </data>
+  <data name="ucDevice1101.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1101.Name" xml:space="preserve">
+    <value>ucDevice1101</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1101.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1101.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1101.ZOrder" xml:space="preserve">
+    <value>69</value>
+  </data>
+  <data name="ucDevice1102.Location" type="System.Drawing.Point, System.Drawing">
+    <value>356, 180</value>
+  </data>
+  <data name="ucDevice1102.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 76</value>
+  </data>
+  <data name="ucDevice1102.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1102.Name" xml:space="preserve">
+    <value>ucDevice1102</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1102.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1102.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1102.ZOrder" xml:space="preserve">
+    <value>70</value>
+  </data>
+  <data name="ucDevice1105.Location" type="System.Drawing.Point, System.Drawing">
+    <value>356, 103</value>
+  </data>
+  <data name="ucDevice1105.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 76</value>
+  </data>
+  <data name="ucDevice1105.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1105.Name" xml:space="preserve">
+    <value>ucDevice1105</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1105.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1105.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1105.ZOrder" xml:space="preserve">
+    <value>71</value>
+  </data>
+  <data name="button4.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="button4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9pt, style=Bold</value>
+  </data>
+  <data name="button4.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>347, 118</value>
+  </data>
+  <data name="button4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>689, 43</value>
+  </data>
+  <data name="button4.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;button4.Name" xml:space="preserve">
+    <value>button4</value>
+  </data>
+  <data name="&gt;&gt;button4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button4.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;button4.ZOrder" xml:space="preserve">
+    <value>72</value>
+  </data>
+  <data name="button3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="button3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9pt, style=Bold</value>
+  </data>
+  <data name="button3.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>634, 6</value>
+  </data>
+  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 22</value>
+  </data>
+  <data name="button3.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="button3.Text" xml:space="preserve">
+    <value>空棧板補充站</value>
+  </data>
+  <data name="&gt;&gt;button3.Name" xml:space="preserve">
+    <value>button3</value>
+  </data>
+  <data name="&gt;&gt;button3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
+    <value>73</value>
+  </data>
+  <data name="button2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="button2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9pt, style=Bold</value>
+  </data>
+  <data name="button2.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>852, 6</value>
+  </data>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 22</value>
+  </data>
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>異常排出口</value>
+  </data>
+  <data name="&gt;&gt;button2.Name" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+    <value>74</value>
+  </data>
+  <data name="button1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9pt, style=Bold</value>
+  </data>
+  <data name="button1.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>743, 6</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 22</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>包裝線</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>75</value>
+  </data>
+  <data name="btnRedo.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnRedo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9pt, style=Bold</value>
+  </data>
+  <data name="btnRedo.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnRedo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnRedo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>525, 6</value>
+  </data>
+  <data name="btnRedo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 22</value>
+  </data>
+  <data name="btnRedo.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="btnRedo.Text" xml:space="preserve">
+    <value>包裝線</value>
+  </data>
+  <data name="&gt;&gt;btnRedo.Name" xml:space="preserve">
+    <value>btnRedo</value>
+  </data>
+  <data name="&gt;&gt;btnRedo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRedo.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;btnRedo.ZOrder" xml:space="preserve">
+    <value>76</value>
+  </data>
+  <data name="ucDevice1109.Location" type="System.Drawing.Point, System.Drawing">
+    <value>852, 34</value>
+  </data>
+  <data name="ucDevice1109.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 76</value>
+  </data>
+  <data name="ucDevice1109.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1109.Name" xml:space="preserve">
+    <value>ucDevice1109</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1109.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1109.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1109.ZOrder" xml:space="preserve">
+    <value>77</value>
+  </data>
+  <data name="ucDevice1108.Location" type="System.Drawing.Point, System.Drawing">
+    <value>743, 34</value>
+  </data>
+  <data name="ucDevice1108.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 76</value>
+  </data>
+  <data name="ucDevice1108.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1108.Name" xml:space="preserve">
+    <value>ucDevice1108</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1108.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1108.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1108.ZOrder" xml:space="preserve">
+    <value>78</value>
+  </data>
+  <data name="ucDevice1107.Location" type="System.Drawing.Point, System.Drawing">
+    <value>634, 34</value>
+  </data>
+  <data name="ucDevice1107.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 76</value>
+  </data>
+  <data name="ucDevice1107.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1107.Name" xml:space="preserve">
+    <value>ucDevice1107</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1107.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1107.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1107.ZOrder" xml:space="preserve">
+    <value>79</value>
+  </data>
+  <data name="ucDevice1106.Location" type="System.Drawing.Point, System.Drawing">
+    <value>525, 34</value>
+  </data>
+  <data name="ucDevice1106.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 76</value>
+  </data>
+  <data name="ucDevice1106.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1106.Name" xml:space="preserve">
+    <value>ucDevice1106</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1106.Type" xml:space="preserve">
+    <value>WMS.ucDevice, WMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1106.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;ucDevice1106.ZOrder" xml:space="preserve">
+    <value>80</value>
+  </data>
+  <data name="button9.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="button9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9pt, style=Bold</value>
+  </data>
+  <data name="button9.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>244, 386</value>
+  </data>
+  <data name="button9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 2350</value>
+  </data>
+  <data name="button9.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="&gt;&gt;button9.Name" xml:space="preserve">
+    <value>button9</value>
+  </data>
+  <data name="&gt;&gt;button9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button9.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;button9.ZOrder" xml:space="preserve">
+    <value>81</value>
+  </data>
+  <data name="xtraScrollableControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="xtraScrollableControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 34</value>
+  </data>
+  <data name="xtraScrollableControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1056, 477</value>
+  </data>
+  <data name="xtraScrollableControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;xtraScrollableControl1.Name" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;xtraScrollableControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.XtraScrollableControl, DevExpress.Utils.v10.2, Version=10.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;xtraScrollableControl1.Parent" xml:space="preserve">
+    <value>xtraTabPage1</value>
+  </data>
+  <data name="&gt;&gt;xtraScrollableControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnPlus1F.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnPlus1F.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9pt, style=Bold</value>
+  </data>
+  <data name="btnPlus1F.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnPlus1F.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 6</value>
+  </data>
+  <data name="btnPlus1F.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 22</value>
+  </data>
+  <data name="btnPlus1F.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <metadata name="toolTipController1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="btnPlus1F.ToolTip" xml:space="preserve">
+    <value>放大</value>
+  </data>
+  <data name="&gt;&gt;btnPlus1F.Name" xml:space="preserve">
+    <value>btnPlus1F</value>
+  </data>
+  <data name="&gt;&gt;btnPlus1F.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnPlus1F.Parent" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;btnPlus1F.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnMinus1F.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnMinus1F.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9pt, style=Bold</value>
+  </data>
+  <data name="btnMinus1F.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnMinus1F.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 6</value>
+  </data>
+  <data name="btnMinus1F.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 22</value>
+  </data>
+  <data name="btnMinus1F.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="btnMinus1F.ToolTip" xml:space="preserve">
+    <value>縮小</value>
+  </data>
+  <data name="&gt;&gt;btnMinus1F.Name" xml:space="preserve">
+    <value>btnMinus1F</value>
+  </data>
+  <data name="&gt;&gt;btnMinus1F.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnMinus1F.Parent" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;btnMinus1F.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panelControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panelControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1056, 34</value>
+  </data>
+  <data name="panelControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.Name" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v10.2, Version=10.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.Parent" xml:space="preserve">
+    <value>xtraTabPage1</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="xtraTabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1056, 511</value>
+  </data>
+  <data name="xtraTabPage1.Text" xml:space="preserve">
+    <value>1F</value>
+  </data>
+  <data name="&gt;&gt;xtraTabPage1.Name" xml:space="preserve">
+    <value>xtraTabPage1</value>
+  </data>
+  <data name="&gt;&gt;xtraTabPage1.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v10.2, Version=10.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;xtraTabPage1.Parent" xml:space="preserve">
+    <value>xtraTabControl1</value>
+  </data>
+  <data name="&gt;&gt;xtraTabPage1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="xtraTabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1062, 538</value>
+  </data>
+  <data name="xtraTabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="xtraTabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1056, 511</value>
+  </data>
+  <data name="xtraTabPage2.Text" xml:space="preserve">
+    <value>2F</value>
+  </data>
+  <data name="&gt;&gt;xtraTabPage2.Name" xml:space="preserve">
+    <value>xtraTabPage2</value>
+  </data>
+  <data name="&gt;&gt;xtraTabPage2.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v10.2, Version=10.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;xtraTabPage2.Parent" xml:space="preserve">
+    <value>xtraTabControl1</value>
+  </data>
+  <data name="&gt;&gt;xtraTabPage2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl1.Name" xml:space="preserve">
+    <value>xtraTabControl1</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v10.2, Version=10.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>60</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1062, 538</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Fm_A003</value>
+  </data>
+  <data name="&gt;&gt;toolTipController1.Name" xml:space="preserve">
+    <value>toolTipController1</value>
+  </data>
+  <data name="&gt;&gt;toolTipController1.Type" xml:space="preserve">
+    <value>DevExpress.Utils.ToolTipController, DevExpress.Utils.v10.2, Version=10.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Fm_A003</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

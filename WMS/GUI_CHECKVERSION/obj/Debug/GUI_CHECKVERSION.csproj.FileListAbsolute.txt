@@ -1,0 +1,8 @@
+C:\邑遠網路科技\公司專案\1.自動倉儲\32.山東信發PVC自動倉儲\SRC\WMS\Gary.WMS.Winform\WMS\GUI_CHECKVERSION\bin\Debug\GUI_CHECKVERSION.exe
+C:\邑遠網路科技\公司專案\1.自動倉儲\32.山東信發PVC自動倉儲\SRC\WMS\Gary.WMS.Winform\WMS\GUI_CHECKVERSION\bin\Debug\GUI_CHECKVERSION.pdb
+C:\邑遠網路科技\公司專案\1.自動倉儲\32.山東信發PVC自動倉儲\SRC\WMS\Gary.WMS.Winform\WMS\GUI_CHECKVERSION\obj\Debug\ResolveAssemblyReference.cache
+C:\邑遠網路科技\公司專案\1.自動倉儲\32.山東信發PVC自動倉儲\SRC\WMS\Gary.WMS.Winform\WMS\GUI_CHECKVERSION\obj\Debug\GUI_CHECKVERSION.fm_CheckVersion.resources
+C:\邑遠網路科技\公司專案\1.自動倉儲\32.山東信發PVC自動倉儲\SRC\WMS\Gary.WMS.Winform\WMS\GUI_CHECKVERSION\obj\Debug\GUI_CHECKVERSION.Properties.Resources.resources
+C:\邑遠網路科技\公司專案\1.自動倉儲\32.山東信發PVC自動倉儲\SRC\WMS\Gary.WMS.Winform\WMS\GUI_CHECKVERSION\obj\Debug\GUI_CHECKVERSION.csproj.GenerateResource.Cache
+C:\邑遠網路科技\公司專案\1.自動倉儲\32.山東信發PVC自動倉儲\SRC\WMS\Gary.WMS.Winform\WMS\GUI_CHECKVERSION\obj\Debug\GUI_CHECKVERSION.exe
+C:\邑遠網路科技\公司專案\1.自動倉儲\32.山東信發PVC自動倉儲\SRC\WMS\Gary.WMS.Winform\WMS\GUI_CHECKVERSION\obj\Debug\GUI_CHECKVERSION.pdb
